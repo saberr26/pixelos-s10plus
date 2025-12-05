@@ -1,0 +1,1 @@
+# pixelos-s10plus
