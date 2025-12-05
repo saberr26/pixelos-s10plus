@@ -10,7 +10,7 @@ jobs:
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Clean up space
       run: |
@@ -62,7 +62,7 @@ jobs:
         mka bacon -j$(nproc --all)
     
     - name: Upload ROM
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: success()
       with:
         name: PixelOS-beyond2lte
