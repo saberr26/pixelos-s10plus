@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <project name="LineageOS/android_device_samsung_beyond2lte" 
-           path="device/samsung/beyond2lte" 
-           remote="github" 
-           revision="lineage-23.0" />
-</manifest>
